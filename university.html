@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Marksheet</title>
+</head>
+
+<link rel="stylesheet" href="university.css">
+<script src="university.js"></script>
+
+<body>
+
+    <div class="container">
+        <div class="one">
+            <div id="head" style="display: flex;"> <img src="logosp.jfif" alt="logosp">
+                <h1 id="heading">SAVITRIBAI - PHULE PUNE UNIVERSITY</h1>
+            </div>
+            <div id="head2">
+                <h2>
+                    <P style="text-align: center; margin-top: 0mm; font-size: 25px; filter: brightness(120%);">(Formaly
+                        University of Pune )</P>
+                    <p style="font-size: 30px; text-align: center; margin-top: 1px;">GANESHKHIND PUNE 411007</p>
+                </h2>
+            </div>
+            <hr>
+            <div id="info">
+                <h2 style="margin-left: 0mm;">Student Name: <input type="text" id="studentname" required>
+                    Seat No: <input type="number">
+                    <h2> Mother Name: <input type="text" required> PRN: <input type="Number" required></h2>
+                    <h2> College Name: <input type="text" required></h2>
+            </div>
+            <hr>
+            <div>
+                <h1 style="text-align: center;">Academic-Subject</h1>
+                <h3>
+                    <table>
+                        <tr>
+                            <td>SUBJECTS</td>
+                            <td>TOTAL MARKS</td>
+                            <td> OBTAINED MARKS</td>
+                            <td> GRADE</td>
+                        </tr>
+
+                        <tr>
+                            <td id="id1">MATHATICS</td>
+                            <td>100</td>
+                            <td> <input type="number" id="math" placeholder="Enter marks"> </td>
+                            <td id="id10"></td>
+                        </tr>
+                        <tr>
+                            <td>C_PROGRAMING</td>
+                            <td>100</td>
+                            <td> <input type="number" id="C_programing" placeholder="Enter marks"> </td>
+                            <td id="id11"></td>
+                        </tr>
+                        <tr>
+                            <td id="id3">DATA_STRUCTURE</td>
+                            <td>100</td>
+                            <td> <input type="number" id="Data_structure" placeholder="Enter marks"> </td>
+                            <td id="id12"></td>
+                        </tr>
+                        <tr>
+                            <td> JAVASCRIPT</td>
+                            <td>100</td>
+                            <td> <input type="number" id="java" placeholder="Enter marks"> </td>
+                            <td id="id13"> </td>
+                        </tr>
+                        <tr>
+                            <td id="id5">HTML</td>
+                            <td>100</td>
+                            <td> <input type="number" id="HTML" placeholder="Enter marks"> </td>
+                            <td id="id14"></td>
+                        </tr>
+
+                    </table>
+                    <button style="margin-left: 350px; padding: 10px; margin-top:10px ;" onclick="show()"> Show
+                        Result</button>
+
+                </h3>
+            </div>
+            <div style="margin: 10px; font-size: 20px;">
+                <h2 id="id6">Total Marks :</h2>
+                <h2 id="id7"> Result :</h2>
+                <h2 id="id8">Grade :</h2>
+                <h2 id="id9">Percentages %:</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
